@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{211034BE-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omego.Utilities", "core\Omego.Utilities\Omego.Utilities.csproj", "{3E2B198F-2798-4A68-B32A-7844B379F8EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omego.Utilities.Tests.Integration", "tests\integration\Omego.Utilities.Tests.Integration\Omego.Utilities.Tests.Integration.csproj", "{06828BFE-CD74-421C-84A9-C0819D0498D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omego.Utilities.Tests.Unit", "tests\unit\Omego.Utilities.Tests.Unit\Omego.Utilities.Tests.Unit.csproj", "{6FA06058-749A-497E-878D-AEBFCB9CA632}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{3E2B198F-2798-4A68-B32A-7844B379F8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2B198F-2798-4A68-B32A-7844B379F8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2B198F-2798-4A68-B32A-7844B379F8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06828BFE-CD74-421C-84A9-C0819D0498D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06828BFE-CD74-421C-84A9-C0819D0498D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06828BFE-CD74-421C-84A9-C0819D0498D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06828BFE-CD74-421C-84A9-C0819D0498D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA06058-749A-497E-878D-AEBFCB9CA632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA06058-749A-497E-878D-AEBFCB9CA632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA06058-749A-497E-878D-AEBFCB9CA632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA06058-749A-497E-878D-AEBFCB9CA632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,5 +43,7 @@ Global
 		{2C69F989-110C-4274-985E-42D61B031D81} = {0001A390-ECC2-46BB-BD0C-DE23A44AF82B}
 		{211034BE-77B4-457F-AFBA-D997ED25A758} = {0001A390-ECC2-46BB-BD0C-DE23A44AF82B}
 		{3E2B198F-2798-4A68-B32A-7844B379F8EC} = {52F770F5-983D-4052-A9A1-8EF7FAD2C210}
+		{06828BFE-CD74-421C-84A9-C0819D0498D4} = {2C69F989-110C-4274-985E-42D61B031D81}
+		{6FA06058-749A-497E-878D-AEBFCB9CA632} = {211034BE-77B4-457F-AFBA-D997ED25A758}
 	EndGlobalSection
 EndGlobal
