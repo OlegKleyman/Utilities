@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{211034BE-77B4-457F-AFBA-D997ED25A758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omego.Utilities", "core\Omego.Utilities\Omego.Utilities.csproj", "{3E2B198F-2798-4A68-B32A-7844B379F8EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omego.Utilities", "src\Omego.Utilities\Omego.Utilities.csproj", "{3E2B198F-2798-4A68-B32A-7844B379F8EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omego.Utilities.Tests.Integration", "tests\integration\Omego.Utilities.Tests.Integration\Omego.Utilities.Tests.Integration.csproj", "{06828BFE-CD74-421C-84A9-C0819D0498D4}"
 EndProject
