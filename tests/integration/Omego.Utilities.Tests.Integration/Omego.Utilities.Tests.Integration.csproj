@@ -40,6 +40,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Xbehave.Core, Version=2.0.1.0, Culture=neutral, PublicKeyToken=e4957f48888f9fe8, processorArchitecture=MSIL">
@@ -68,10 +69,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImportRecordsFeature.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Omego.Utilities.Demo\Omego.Utilities.Demo.csproj">
+      <Project>{775FDBA9-7727-4617-B314-00B6F709D8BD}</Project>
+      <Name>Omego.Utilities.Demo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
