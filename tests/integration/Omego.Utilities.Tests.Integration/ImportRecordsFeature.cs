@@ -31,7 +31,7 @@
                                                                    }
                                                            };
 
-        [Scenario]
+        [Scenario(Skip = "Need to implement console")]
         [MemberData("ImportData")]
         public void DemoToImportDataIntoNewSqlServerFlatFile(
             string dataDirectoryPath,
